@@ -1,0 +1,12 @@
+# Testing endpoints
+
+#  Hello lambda
+GET https://1npp152dl4.execute-api.us-east-2.amazonaws.com/dev/hello?name=Matias
+
+###
+#  moi lambda
+GET https://1npp152dl4.execute-api.us-east-2.amazonaws.com/dev/moi?name=Matias
+
+###
+# getGreeting lambda
+GET https://1npp152dl4.execute-api.us-east-2.amazonaws.com/dev/greet?name=Matias

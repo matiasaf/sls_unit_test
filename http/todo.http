@@ -1,0 +1,23 @@
+
+GET https://1npp152dl4.execute-api.us-east-2.amazonaws.com/dev/todo
+
+###
+
+POST https://1npp152dl4.execute-api.us-east-2.amazonaws.com/dev/todo
+content-type: application/json
+
+{
+    "todo": "todo-sample"
+}
+
+###
+
+PATCH  https://1npp152dl4.execute-api.us-east-2.amazonaws.com/dev/todo
+content-type: application/json
+
+{
+  "created": 1601252427381,
+  "todo": "todo-sample",
+  "id": "f6733f03-eaaf-4f7c-bcff-6e9ec514dc08",
+  "done": true
+}
